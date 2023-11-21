@@ -8,6 +8,7 @@
 
     <mvc:annotation-driven/>
     <context:component-scan base-package="controller" />  <!-- 컨트롤러 사용하게 해주는 부분 /  패키지 내의 클래스를 스캔하여 Spring 빈으로 등록 -->
+    <mvc:resources mapping="/css/**" location="/css/"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"> <!--JSP 파일의 경로로 변환 -->
         <property name="prefix" value="/WEB-INF/jsp/" />  <!-- 뷰의 경로 -->
