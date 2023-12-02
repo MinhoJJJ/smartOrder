@@ -1,4 +1,4 @@
-package mapper;
+package mapper.java;
 
 public interface loginMapper {
 
