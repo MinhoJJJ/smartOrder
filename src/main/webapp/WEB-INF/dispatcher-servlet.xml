@@ -8,6 +8,7 @@
 
     <mvc:annotation-driven/>
     <context:component-scan base-package="controller" />  <!-- 컨트롤러 사용하게 해주는 부분 /  패키지 내의 클래스를 스캔하여 Spring 빈으로 등록 -->
+    <context:component-scan base-package="services" />  <!-- 서비스 사용하게 해주는 부분 /  패키지 내의 클래스를 스캔하여 Spring 빈으로 등록 -->
     <mvc:resources mapping="/css/**" location="/css/"/>
     <mvc:resources mapping="/images/**" location="/images/"/>
 

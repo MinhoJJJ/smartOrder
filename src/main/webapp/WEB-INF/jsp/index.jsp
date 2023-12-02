@@ -28,7 +28,6 @@
             .appendTo(".imgslide")
         },3000);
         $(".notice li:first").click(function(){
-            console.log("작동한다")
             $(".modal").addClass("active");
         });
         $(".btn").click(function(){
