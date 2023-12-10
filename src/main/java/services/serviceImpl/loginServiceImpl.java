@@ -11,7 +11,6 @@ public class loginServiceImpl implements loginService {
 
     @Override
     public int loginCk(String userId) {
-        System.err.println("성공인가?");
         return 0;
     }
 }
