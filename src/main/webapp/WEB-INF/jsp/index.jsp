@@ -6,8 +6,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
     <title>Login Page</title>
-    <link href="/css/login.css" rel="stylesheet" type="text/css" />
-</head>
+    <link href="/css/login.css" rel="stylesheet" type="text/css"/></head>
 <script>
     jQuery(document).ready(function(){
         $(".navi li").mouseover(function(){
