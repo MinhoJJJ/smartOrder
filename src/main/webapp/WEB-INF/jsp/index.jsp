@@ -6,9 +6,10 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
     <title>Login Page</title>
-    <link href="/css/login.css" rel="stylesheet" type="text/css"/></head>
+    <link href="/css/login.css" rel="stylesheet" type="text/css" />
+</head>
 <script>
-    jQuery(document).ready(function(){
+    $(document).ready(function() {
         $(".navi li").mouseover(function(){
             $(".submenu").stop().slideDown();
             $(".menubox").stop().slideDown();
@@ -20,11 +21,11 @@
         $(".imgslide a:gt(0)").hide();
         setInterval(function(){
             $(".imgslide a:first-child")
-            .fadeOut()
-            .next("a")
-            .fadeIn()
-            .end()
-            .appendTo(".imgslide")
+                .fadeOut()
+                .next("a")
+                .fadeIn()
+                .end()
+                .appendTo(".imgslide")
         },3000);
         $(".notice li:first").click(function(){
             $(".modal").addClass("active");
@@ -38,7 +39,7 @@
 <header>
     <div class="wrap">
         <div class="logo">
-            <a href="#"><img src="../../images/logo.png" alt="#"></a>
+            <a href="#"><img src="/images/logo.png" alt="#"></a>
         </div>
         <div class="menubox"></div>
         <nav class="menu">
@@ -77,9 +78,9 @@
     </div>
 </header>
 <div class="imgslide">
-    <a href="#"><img src="images/img1.jpg" alt="#"><span>국내 여행의 대표, 한국투어</span></a>
-    <a href="#"><img src="images/img2.jpg" alt="#"><span>해외 여행 예약, 한국투어</span></a>
-    <a href="#"><img src="images/img3.jpg" alt="#"><span>해외 여행 예약, 한국투어</span></a>
+    <a href="#"><img src="/images/img1.jpg" alt="#"><span>국내 여행의 대표, 한국투어</span></a>
+    <a href="#"><img src="/images/img2.jpg" alt="#"><span>해외 여행 예약, 한국투어</span></a>
+    <a href="#"><img src="/images/img3.jpg" alt="#"><span>해외 여행 예약, 한국투어</span></a>
 </div>
 <div class="contents">
     <div class="notice">
@@ -93,12 +94,12 @@
     </div>
     <div class="gallery">
         <div class="tab"><h4>갤러리</h4></div>
-        <a href="https://www.naver.com"><img src="images/gallery1.jpg" alt="#"></a>
-        <a href="#"><img src="images/gallery2.jpg" alt="#"></a>
-        <a href="#"><img src="images/gallery3.jpg" alt="#"></a>
+        <a href="https://www.naver.com"><img src="/images/gallery1.jpg" alt="#"></a>
+        <a href="#"><img src="/images/gallery2.jpg" alt="#"></a>
+        <a href="#"><img src="/images/gallery3.jpg" alt="#"></a>
     </div>
     <div class="shortcut">
-        <a href="#"><img src="images/shortcut.jpg" alt="#"><span>바로가기</span></a>
+        <a href="#"><img src="/images/shortcut.jpg" alt="#"><span>바로가기</span></a>
     </div>
 </div>
 <div class="modal">

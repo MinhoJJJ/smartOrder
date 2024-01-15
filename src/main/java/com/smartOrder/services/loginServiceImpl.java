@@ -1,7 +1,6 @@
-package services.serviceImpl;
+package com.smartOrder.services;
 
 import org.springframework.stereotype.Service;
-import services.service.loginService;
 import org.springframework.beans.factory.annotation.Autowired;
 @Service
 public class loginServiceImpl implements loginService {

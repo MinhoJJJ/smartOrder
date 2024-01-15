@@ -1,4 +1,4 @@
-package mapper.java;
+package com.smartOrder.mapper;
 
 public interface loginMapper {
 

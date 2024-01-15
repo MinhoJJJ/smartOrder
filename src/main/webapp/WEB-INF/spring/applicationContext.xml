@@ -16,10 +16,10 @@
     <!-- SqlSessionFactory 정의 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
-        <property name="mapperLocations" value="classpath:mapper/**/*Mapper.xml"></property>
-    </bean>
+        <property name="mapperLocations" value="classpath:smartOrder/*Mapper.xml" />
+       </bean>
 
     <!-- Mapper 스캔 -->
-    <mybatis-spring:scan base-package="mapper" />
+    <mybatis-spring:scan base-package="com.smartOrder.mapper" />
 
 </beans>

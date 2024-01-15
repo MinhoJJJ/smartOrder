@@ -1,6 +1,5 @@
-package services.service;
+package com.smartOrder.services;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
