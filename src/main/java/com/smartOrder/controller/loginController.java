@@ -18,6 +18,6 @@ public class loginController {
     public String start(){
         System.out.println("실행중");
         loginService.loginCk("miho");
-        return "index";
+        return "main";
     }
 }

@@ -25,7 +25,7 @@
     <servlet-name>dispatcher</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
-  
+
   <!-- 첫페이지 설정 -->
   <welcome-file-list>
     <welcome-file>/WEB-INF/jsp/index.jsp</welcome-file>
